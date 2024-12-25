@@ -1,0 +1,129 @@
+/* This overall style */
+/* navigation style */
+nav{
+    position: relative;
+    background-color: black;
+    padding: 10px;
+    
+}
+
+nav .nav-container {
+  
+   justify-content: center;
+    position: relative;
+    margin-top: 50px;
+    }
+nav .nav-container a{
+    text-decoration: none;
+    margin-top: ;
+    padding: 5px;
+    color: aliceblue;
+    float: right;
+    
+}
+/* Logo style */
+nav .logo-container{
+    margin-bottom: 10px;
+}
+nav .logo-container .row .h1{
+    font-size: 20px;
+    color: aliceblue;
+
+}
+/* main styling */
+main .Intro{
+   padding: 50px;
+   
+nav{
+    position: relative;
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .nav-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+nav .nav-container a{
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+nav .logo-container{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav .logo-container .row .h1{
+    font-size: 20px;
+    color: aliceblue;
+    margin: 0;
+}
+
+main .Intro{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .Intro .container .row .col img{
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+main .Intro .container .row .col .fav-icons{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+main .Intro .container .row .col img{
+   border-radius: 150px;
+   width: 300px;
+   height: 300px ;
+    
+}
+main .Intro .container .row .col .fav-icons{
+    background-color: aqua;
+    padding: 20px;
+    margin: 20Px;
+}
+/* footer styling */
+footer{
+    background-color: black;
+    
+}
+footer .container{
+    padding: 20px;
+}
