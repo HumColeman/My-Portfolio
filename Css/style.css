@@ -77,7 +77,7 @@ main .Intro{
 }
 
 main .Intro .container .row .col img{
-    border-radius: 150px;
+    border-radius: 50;
     width: 300px;
     height: 300px;
     object-fit: cover;
@@ -109,9 +109,14 @@ footer .container{
 }
 
 main .Intro .container .row .col img{
-   border-radius: 150px;
-   width: 300px;
-   height: 300px ;
+    position:relative;
+    @REM top: 50%; 
+    @REM left: 20%; /* Adjust as needed */
+    width: 250px; /* Width of the hexagon */
+    height: 250px; /* Height of the hexagon */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    
     
 }
 main .Intro .container .row .col .fav-icons{
