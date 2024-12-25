@@ -1,7 +1,7 @@
 /* This overall style */
 /* navigation style */
 nav{
-    position: relative;
+    position: static;
     background-color: black;
     padding: 10px;
     
