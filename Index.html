@@ -2,100 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Francis T. Coleman</title>
-    <link rel="stylesheet" href="/Bootstrap/bootstrap-5.3.3-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/stylesheet.css">
+    <title>Document</title>
 </head>
 <body>
-    <!-- This is the header -->
+
+        <!-- This is the header -->
     <header>
     <!-- This is the navigation bar  -->
-        <nav>
-            <div class="nav-container">
-                <a href="#">Contact</a>
-            <a href="#">About</a>
-            <a href="#">Home</a>
-            </div>
-            <div class="logo-container">
-                <div class="row">
-                    <div class="h1">FRANCIS</div>
-                </div>
-                <div class="row">
-                    <div class="h1">COLEMAN</div>
-                </div>
-            </div>
-            
-        </nav>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="/Images/My Logo.png" alt="Logo">
+        </div>
+        <div class="nav-buttons">
+            <ul>
+                <li><a href="/Index.html">Home</a></li>
+                <li><a href="/About-me.html">About Me</a></li>
+                <li><a href="/Services.html">Services</a></li>
+                <li><a href="/Projects.html">Projects</a></li>
+                <li><a href="/Clients.html">Clients</a></li>
+                <li><a href="/Let's-chat.html" class="chat-button">Let's Chat</a></li>
+            </ul>
+        </div>
+        <div class="hamburger" id="hamburger">
+            &#9776; <!-- Hamburger icon -->
+        </div>
+    </nav>
+        
+         
     </header>
     <!-- This is the main -->
     <main>
-        <div class="Intro">
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src="/Images/Banner_Img.jpg" alt="Francis Coleman"
-                        class="img-fluid"
-
-                        >
-                        <div class="txt-f-img">
-                            <div class="h3">
-                                FRANCIS T. COLEMAN
-                            </div>
-                            <div class="h4">
-                                BSc. candidate (System Admin)
-                            </div>
-                        </div>
+        <div class="container">
+            <div class="text-box">
+                <h1>HI I'M FRANCIS</h1>
+                <p>
+                   <h2>I am a,</h2> <div class="typing-animation">
+                        <span id="typed-text"></span>
                     </div>
-                    <div class="col">
-                       <row>
-                        <div class="fav-icons">
-                            <p>Hi</p>
-                        </div>
-                       </row>
-                       <row>
-                        <div class="fav-icons">
-                            <p>Hi</p>
-                        </div>
-                       </row>
-                       <row>
-                        <div class="fav-icons">
-                            <p>
-                                Hi
-                            </p>
-                        </div>
-                       </row>
-                    </div>
-                </div>
+                </p>
+                 <!-- Social media buttons -->
+        <div class="social-media-icons">#<img src="" alt=""><img src="" alt="">#<img src="" alt=""><img src="" alt="">#<img src="" alt=""></div>
+            </div>
+            <div class="image-box">
+                <img src="/Images/Banner_Img.jpg" alt="Description of the image">
             </div>
         </div>
+        <div class="main-background-image">
+            <img src="/Images/Background.jpg" alt="background image">
+        </div>
+       
+         
     </main>
     <!-- This is the footer -->
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <p>
-                        Hello world
-                    </p>
-                </div>
-                <div class="col">
-                    <p>
-                        Hello world
-                    </p>
-                </div>
-                <div class="col">
-                    <p>
-                       Hello world
-                    </p>
-                </div>
-            
-                
-            </div>
-        </div>
+        
     </footer>
    
     <script src="/Bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
+    <script src="/Js/page-animation.js"></script>
+
 </body>
 </html>
