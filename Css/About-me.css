@@ -1,0 +1,32 @@
+.Description-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+    margin:40px;
+    overflow: hidden;
+    
+}
+ .top-img{
+    margin:2.5px;
+    padding: 20px;
+    width: 20px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.top-img img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; 
+    border-radius: 165px;
+
+}
+.Description-container .Descriptive-text h1{
+    justify-item: center;
+    justify-content: center;
+    index: 1;
+}
