@@ -30,3 +30,38 @@
     justify-content: center;
     index: 1;
 }
+        /* Basic styling for the containers */
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px;
+            flex-direction: row;
+            
+        }
+
+        .info-container, .social-container {
+            width: 48%; /* Adjust width as needed */
+        }
+
+        .info-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .info-container ul li {
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        .social-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .social-container img {
+            width: 40px; /* Adjust icon size as needed */
+            height: 40px;
+        }
