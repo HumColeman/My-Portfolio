@@ -1,6 +1,6 @@
 .services-container{
     color: white;
-    background-color: coral;
+    /* background-color: coral; */
     position: relative;
     display: flex;
     flex-direction: column;
@@ -9,4 +9,30 @@
     /* padding: 250px; */
     margin-top: 10em;
     
+}
+/* Services order boxes */
+.services-order {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.service-box {
+    width: 30%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h1 {
+    margin-top: 0;
+    color: black;
+}
+
+.service-box p {
+    margin-bottom: 20px;
+    color: #2f2f2f;
 }
