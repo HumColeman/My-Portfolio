@@ -4,6 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 150px;
     background-color: rgba(255, 255, 255, 0.5);
     border: 1px solid #ccc;
     padding: 20px;
@@ -12,14 +13,21 @@
     
    
 }
-/* Style the button */
+/* Text styles */
+.Info-page .sec2 img{
+    width: 350px;
+}
+.Info-page .sec1{
+    margin-bottom: 20px;
+}
 /* Style the button */
 #reveal-form-button {
     background-color: #4CAF50;
     position: relative;
     color: #fff;
     padding: 20px 20px;
-    margin-left: 20px;
+    margin-left: 50px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -65,4 +73,50 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+  /* Footer style */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    width: 30%;
+    margin: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-top: 0;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-section li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-section a:hover {
+    color: #ccc;
+  }
+  
+  .fa {
+    margin-right: 10px;
   }
