@@ -1,5 +1,68 @@
-.form-container{
-    background-color: white;
-    /* width: fit-content; */
-    color: black;
+/* Page style */
+.Info-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+   
 }
+/* Style the button */
+/* Style the button */
+#reveal-form-button {
+    background-color: #4CAF50;
+    position: relative;
+    color: #fff;
+    padding: 20px 20px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: 50%;
+    left: 50%; */
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Style the form container */
+  #form-container {
+    background-color: #f9f9f9;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    max-width: 500px;
+  }
+  
+  /* Style the form fields */
+  #contact-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #contact-form input, #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the send button */
+  #send-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

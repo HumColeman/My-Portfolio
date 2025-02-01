@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/My-Portfolio/Css/stylesheet.css">
+    <link rel="stylesheet" href="/My-Portfolio/Css/let's-chat.css">
     <title>Document</title>
 </head>
 <body>
@@ -34,14 +35,37 @@
     </header>
     <!-- This is the main -->
     <main>
-        <div class="form-container">
-            <div class="logo">
-                <img src="/My-Portfolio/Images/My Logo.png" alt="Page logo">
+        <!-- Info page contents -->
+         <div class="Info-page">
+            <div class="sec1">
+                <h1>HAVE AN IDEA IN MIND?</h1>
+                <h2>LET'S MAKE IT A REALITY</h2>
+                <!-- This the button -->
+        <button id="reveal-form-button">Get in Touch</button>
+        <!-- This is the form section -->
+        <div id="form-container" style="display: none;">
+            <form id="contact-form">
+              <label for="full-name">Full Name:</label>
+              <input type="text" id="full-name" name="full-name" required>
+          
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="subject">Subject:</label>
+              <input type="text" id="subject" name="subject" required>
+          
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+          
+              <button id="send-button" type="submit">Send</button>
+            </form>
+          </div>
             </div>
-            <div class="form-contents">
-                <form action=""></form>
+            <div class="sec2">
+                <img src="/My-Portfolio/Images/My Logo.png" alt="Page logo" srcset="">
             </div>
-        </div>
+         </div>
+        
         
         <div class="main-background-image">
             <img src="/My-Portfolio/Images/Background.jpg" alt="background image">
@@ -56,6 +80,7 @@
    
     <script src="/My-Portfolio/Bootstrap/bootstrap-5.3.3-dist/js/bootstrap.bundle.js"></script>
     <script src="/My-Portfolio/Js/page-animation.js"></script>
+    <script src="/My-Portfolio/Js/form.js"></script>
 
 </body>
 </html>

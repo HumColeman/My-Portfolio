@@ -27,3 +27,5 @@ function typeText() {
 
 // Start the typing animation
 typeText();
+
+
