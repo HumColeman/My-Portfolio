@@ -1,0 +1,12 @@
+.services-container{
+    color: white;
+    background-color: coral;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    /* padding: 250px; */
+    margin-top: 10em;
+    
+}
