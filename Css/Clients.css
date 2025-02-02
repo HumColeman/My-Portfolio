@@ -1,0 +1,33 @@
+.testimonials {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #dcdcdc; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.testimonial-container {
+    position: relative;
+    overflow: hidden;
+    height: 150px; /* Adjust height as needed */
+}
+
+.testimonial {
+    position: absolute;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    color: #333; /* Dark text color */
+}
+
+.testimonial.active {
+    opacity: 1;
+}
+
+.testimonial p {
+    margin: 10px 0; /* Spacing for testimonial text */
+}
+
+.testimonial h3 {
+    color: gold; /* Highlight color for client names */
+}

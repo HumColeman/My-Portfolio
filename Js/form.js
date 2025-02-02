@@ -7,3 +7,5 @@ revealFormButton.addEventListener('click', () => {
   // Toggle the display of the form container
   formContainer.style.display = formContainer.style.display === 'block' ? 'none' : 'block';
 });
+
+
