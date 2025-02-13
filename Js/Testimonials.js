@@ -1,7 +1,8 @@
-// new section for testmonials
+// new section for testimonials
 
 document.addEventListener("DOMContentLoaded", function() {
     const testimonials = document.querySelectorAll('.testimonial');
+    let currentIndex = 0; // Declare currentIndex at the top
     let isAnimating = false; // Flag to prevent overlapping animations
 
     function showNextTestimonial() {
@@ -22,13 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
             testimonials[currentIndex].classList.remove('slide-out-left');
             isAnimating = false; // Reset the flag
         }, 1000); // Duration of the animation
-    let currentIndex = 0;
-  
-    function showNextTestimonial() {
-        testimonials[currentIndex].classList.remove('active');
-        currentIndex = (currentIndex + 1) % testimonials.length;
-        testimonials[currentIndex].classList.add('active');
     }
-  
+
     setInterval(showNextTestimonial, 3000); // Change testimonial every 3 seconds
-  });
+});

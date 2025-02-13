@@ -6,7 +6,6 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-   
     align-items: center;
     background-color: #333;
     padding: 10px 20px;
@@ -14,7 +13,6 @@ body {
 
 .logo img {
     height: 100px; 
-    
 }
 
 .nav-buttons ul {
@@ -34,15 +32,18 @@ body {
     padding: 10px;
     transition: background-color 0.3s;
 }
+
 .hamburger {
     display: none; /* Hidden by default */
     font-size: 30px;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
 .nav-buttons a:hover {
     background-color: #575757; 
     border-radius: 5px;
 }
+
 .chat-button {
     background-color: gold; 
     color: black; 
@@ -52,10 +53,9 @@ body {
     background-color: #d4af37; 
 }
 
-
 body, html {
     height: 100%; 
-    margin: 0; /
+    margin: 0; /* Corrected comment syntax */
 }
 
 .main-background-image {
@@ -79,18 +79,16 @@ body, html {
     align-items: center; 
     justify-content: space-between; 
     padding: 20px;
-    margin:40px;
+    margin: 40px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 800px; 
     width: 100%; 
-    color :white; 
+    color: white; 
 }
 
 .text-box {
     flex: 1; 
     padding: 20px; 
-    
-     
 }
 
 .image-box {
@@ -98,14 +96,13 @@ body, html {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    
 }
 
 .image-box img {
     max-width: 100%; 
     height: auto; 
     margin-left: 500px;
-    border-radius: 20px, 10px, 10px;
+    border-radius: 20px 10px 10px; /* Corrected border-radius syntax */
 }
 
 .typing-animation {
@@ -194,13 +191,11 @@ body, html {
         padding: 10px; /* Adjust padding for mobile */
     }
 }
-/*styling for social media buttons*/
-.social-media-icons{
-    display:flex;
+
+/* Styling for social media buttons */
+.social-media-icons {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
-}
-.social-media-icons img{
-   
 }
